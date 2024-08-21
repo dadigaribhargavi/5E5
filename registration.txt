@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>student registration form</title>
+</head>
+<body bgcolor="light sky blue"><br><br>
+<form>
+<nav>
+<label>first name:</label>
+<input type="text" name="first name"/><br><br>
+<label>middle name:</label>
+<input type="text" name="middle name"/><br><br>
+<label>last name:</label>
+<input type="text" name="last name"/><br><br>
+<label>course</label>
+<select>
+<option value="course">course</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="B-TECH">B-TECH</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M-TECH">M-TECH</option>
+</select><br><br>
+<label>gender:</label><br>
+<input type="radio" name="Male"/>Male<br>
+<input type="radio" name="Female"/>Female<br>
+<input type="radio" name="Other"/>Other<br>
+<label>phone:</label>
+<input type="text" name="country code" value="+91" size="2"/>
+<input type="text" na,e="phone" size="10"/><br><br>
+<label>address:</label>
+<text area cols="80" rows="5" value="address">
+</text area><br><br>
+<label>email:</label>
+<input type="email" id="email" name="email"/>
+<br><br>
+<label>password:</label>
+<input type="password" name="pass"><br><br>
+<label>confrim password:</label>
+<input type="password" name="confrim"><br><br>
+<input type="button" value="submit"/>
+</nav>
+</form>
+</body>
+</html>
+
